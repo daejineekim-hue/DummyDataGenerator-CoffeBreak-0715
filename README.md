@@ -1,4 +1,4 @@
-# DummyDataGenerator-KimDaejin-03086508
+# DummyDataGenerator-CoffeBreak-0715
 
 반도체 시료 생산주문관리 시스템의 **PoC 4: Dummy 데이터 생성 Tool**.
 

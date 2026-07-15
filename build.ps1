@@ -7,6 +7,6 @@ New-Item -ItemType Directory -Force -Path "data" | Out-Null
 
 $sources = Get-ChildItem -Recurse -Path "src" -Filter "*.cpp" | ForEach-Object { $_.FullName }
 
-& g++ -std=c++17 -Wall -Wextra -Iinclude $sources -o "build/dummy_data_generator.exe"
+& g++ -std=c++17 -Wall -Wextra -Iinclude $sources -static -o "build/dummy_data_generator.exe"
 
 Write-Output "Build succeeded: build/dummy_data_generator.exe"
